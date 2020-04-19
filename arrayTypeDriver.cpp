@@ -1,12 +1,14 @@
 
+
+
 #include <iostream>
 #include "myArray.hpp"
 
 using namespace std;
 
 int main() {
-  myArray list1(5);
-  myArray list2(5);
+  myArray<int, int, int> list1(5);
+  myArray<int, int, int> list2(5);
 
   int i;
 
@@ -41,7 +43,7 @@ int main() {
     cout << list1[i] << " ";
   cout << endl;
 
-  myArray list3(-2, 6); // ????
+  myArray<int, int, int> list3(-2, 6); // ???? -- **edit by Edward: indeed ????
 
   cout << "list3: ";
   for (i = -2; i < 6; i++) 

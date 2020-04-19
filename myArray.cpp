@@ -1,11 +1,11 @@
-
+/*
 #include "myArray.hpp"
 #include <cassert>
 #include <iostream>
 
 using namespace std;
 
-myArray::myArray(int uB) {
+myArray::myArray(uB) {
   if (uB <= 0) {
     cout << "Array size must be positive" << endl;
     cout << "Creating an array of size 5: (0-4)" << endl;
@@ -104,3 +104,9 @@ bool myArray::operator==(const myArray &right) const {
 bool myArray::operator!=(const myArray &right) const {
   return (!(*this == right));
 }
+
+void temporaryFunction()
+{
+  myArray<typename T, int *a, int lB, int uB> tempObj;
+}
+*/
