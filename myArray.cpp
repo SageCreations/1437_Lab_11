@@ -1,5 +1,5 @@
 
-#include "myArray.h"
+#include "myArray.hpp"
 #include <cassert>
 #include <iostream>
 

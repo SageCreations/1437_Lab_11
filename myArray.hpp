@@ -1,5 +1,5 @@
-#ifndef H_safeArray
-#define H_safeArray
+#ifndef MYARRAY_HPP
+#define MYARRAY_HPP
 
 #include <iostream>
 

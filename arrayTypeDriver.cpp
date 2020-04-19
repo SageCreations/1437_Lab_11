@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "myArray.h"
+#include "myArray.hpp"
 
 using namespace std;
 
